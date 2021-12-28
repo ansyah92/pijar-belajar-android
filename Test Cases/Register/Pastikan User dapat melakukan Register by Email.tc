@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pastikan User dapat melakukan Register by Email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>369a9f0a-4479-4489-ae22-51f48e9a75dd</testCaseGuid>
+</TestCaseEntity>
