@@ -1,0 +1,126 @@
+[35m[Appium][39m Welcome to Appium v1.22.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 41169
+[35m[Appium][39m   tmpDir: /tmp/Katalon/Appium/Temp1640677508651
+[35m[Appium][39m   chromedriverPort: 34197
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 34197
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:41169
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.22.0"}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m10 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
+[debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.22.0"}}
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m3 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/home/ardiansyah/Downloads/app-debug (1).apk","noReset":true,"deviceId":"ce03160390757c3d03","deviceName":"samsung SM-G935K (Android 8.0.0)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"8.0.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"ce03160390757c3d03","systemPort":36651},"capabilities":{"firstMatch":[{"appium:app":"/home/ardiansyah/Downloads/app-debug (1).apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"ce03160390757c3d03","appium:deviceName":"samsung SM-G935K (Android 8.0.0)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"8.0.0","appium:systemPort":36651,"appium:udid":"ce03160390757c3d03"}]}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"app":"/home/ardiansyah/Downloads/app-debug (1).apk","noReset":true,"deviceId":"ce03160390757c3d03","deviceName":"samsung SM-G935K (Android 8.0.0)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"8.0.0","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"ce03160390757c3d03","systemPort":36651},null,{"firstMatch":[{"appium:app":"/home/ardiansyah/Downloads/app-debug (1).apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"ce03160390757c3d03","appium:deviceName":"samsung SM-G935K (Android 8.0.0)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"8.0.0","appium:systemPort":36651,"appium:udid":"ce03160390757c3d03"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1640677510372 (14:45:10 GMT+0700 (Western Indonesia Time))
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.0 creating new AndroidUiautomator2Driver (v1.69.0) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "appium:deviceId": "ce03160390757c3d03",
+[debug] [35m[BaseDriver][39m     "appium:platform": "ANDROID",
+[debug] [35m[BaseDriver][39m     "platformName": "android",
+[debug] [35m[BaseDriver][39m     "appium:chromedriverPort": 34197,
+[debug] [35m[BaseDriver][39m     "appium:app": "/home/ardiansyah/Downloads/app-debug (1).apk",
+[debug] [35m[BaseDriver][39m     "appium:autoGrantPermissions": true,
+[debug] [35m[BaseDriver][39m     "appium:automationName": "uiautomator2",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "samsung SM-G935K (Android 8.0.0)",
+[debug] [35m[BaseDriver][39m     "appium:fullReset": false,
+[debug] [35m[BaseDriver][39m     "appium:newCommandTimeout": 1800,
+[debug] [35m[BaseDriver][39m     "appium:noReset": true,
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "8.0.0",
+[debug] [35m[BaseDriver][39m     "appium:systemPort": 36651,
+[debug] [35m[BaseDriver][39m     "appium:udid": "ce03160390757c3d03"
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 0221368f-2186-448d-9d09-08027c09a7c6
+[35m[BaseDriver][39m Using local app '/home/ardiansyah/Downloads/app-debug (1).apk'
+[debug] [35m[UiAutomator2][39m Checking whether app is actually present
+[35m[ADB][39m Found 1 'build-tools' folders under '/home/ardiansyah/.katalon/tools/android_sdk' (newest first):
+[35m[ADB][39m     /home/ardiansyah/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using 'adb' from '/home/ardiansyah/.katalon/tools/android_sdk/platform-tools/adb'
+[debug] [35m[ADB][39m Running '/home/ardiansyah/.katalon/tools/android_sdk/platform-tools/adb -P 5037 start-server'
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices
+[debug] [35m[ADB][39m Connected devices: [{"udid":"ce03160390757c3d03","state":"device"}]
+[35m[AndroidDriver][39m Using device: ce03160390757c3d03
+[35m[ADB][39m Using 'adb' from '/home/ardiansyah/.katalon/tools/android_sdk/platform-tools/adb'
+[debug] [35m[ADB][39m Running '/home/ardiansyah/.katalon/tools/android_sdk/platform-tools/adb -P 5037 start-server'
+[debug] [35m[ADB][39m Setting device id to ce03160390757c3d03
+[debug] [35m[ADB][39m Running '/home/ardiansyah/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s ce03160390757c3d03 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 26
+[debug] [35m[ADB][39m Device API level: 26
+[debug] [35m[AndroidDriver][39m Parsing package and activity from app manifest
+[35m[ADB][39m Package name: 'com.pijarbelajar'
+[35m[ADB][39m Main activity name: 'com.pijarbelajar.MainActivity'
+[debug] [35m[AndroidDriver][39m Parsed package and activity are: com.pijarbelajar/com.pijarbelajar.MainActivity
+[debug] [35m[ADB][39m Running '/home/ardiansyah/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s ce03160390757c3d03 wait-for-device'
+[debug] [35m[ADB][39m Running '/home/ardiansyah/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s ce03160390757c3d03 shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running '/home/ardiansyah/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s ce03160390757c3d03 shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m 'io.appium.settings' is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running '/home/ardiansyah/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s ce03160390757c3d03 shell dumpsys package io.appium.settings'
+[debug] [35m[ADB][39m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.4.0' >= '3.4.0')
+[debug] [35m[ADB][39m There is no need to install/upgrade '/usr/lib/node_modules/appium/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+[debug] [35m[ADB][39m Getting IDs of all 'io.appium.settings' processes
+[debug] [35m[ADB][39m Running '/home/ardiansyah/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s ce03160390757c3d03 shell 'pgrep --help; echo $?''
+[debug] [35m[ADB][39m Running '/home/ardiansyah/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s ce03160390757c3d03 shell 'pgrep ^appium\\.settings$ || pgrep ^io\\.appium\\.setti$''
+[debug] [35m[AndroidDriver][39m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [35m[ADB][39m Running '/home/ardiansyah/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s ce03160390757c3d03 shell appops set io.appium.settings android:mock_location allow'
+[debug] [35m[Logcat][39m Starting logs capture with command: /home/ardiansyah/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s ce03160390757c3d03 logcat -v threadtime
+[debug] [35m[UiAutomator2][39m Forwarding UiAutomator2 Server port 6790 to local port 36651
+[debug] [35m[ADB][39m Forwarding system: 36651 to device: 6790
+[debug] [35m[ADB][39m Running '/home/ardiansyah/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s ce03160390757c3d03 forward tcp:36651 tcp:6790'
+[35m[UiAutomator2][39m Server package at '/usr/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.24.0.apk' is not writeable. Will copy it into the temporary location at '/tmp/Katalon/Appium/Temp1640677508651/20211128-9713-qfgjm4.vn7wf' as a workaround. Consider making this file writeable manually in order to improve the performance of session startup.
+[35m[UiAutomator2][39m Server package at '/usr/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is not writeable. Will copy it into the temporary location at '/tmp/Katalon/Appium/Temp1640677508651/20211128-9713-qfgjm4.vn7wf' as a workaround. Consider making this file writeable manually in order to improve the performance of session startup.
+[debug] [35m[ADB][39m Getting install status for io.appium.uiautomator2.server
+[debug] [35m[ADB][39m Running '/home/ardiansyah/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s ce03160390757c3d03 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m 'io.appium.uiautomator2.server' is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m Running '/home/ardiansyah/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s ce03160390757c3d03 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [35m[ADB][39m The version code of the installed 'io.appium.uiautomator2.server' is greater than the application version code (95 > 92)
+[debug] [35m[UiAutomator2][39m io.appium.uiautomator2.server installation state: newerVersionInstalled
+[debug] [35m[ADB][39m Checking app cert for /tmp/Katalon/Appium/Temp1640677508651/20211128-9713-qfgjm4.vn7wf/appium-uiautomator2-server-v4.24.0.apk
+[35m[ADB][39m Using 'apksigner.jar' from '/home/ardiansyah/.katalon/tools/android_sdk/build-tools/29.0.3/lib/apksigner.jar'
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 session
+[debug] [35m[UiAutomator2][39m Deleting UiAutomator2 server session
+[debug] [35m[WD Proxy][39m Matched '/' to command name 'deleteSession'
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Trying to proxy a session command without session id
+[debug] [35m[ADB][39m Running '/home/ardiansyah/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s ce03160390757c3d03 shell am force-stop com.pijarbelajar'
+[debug] [35m[Logcat][39m Stopping logcat capture
+[debug] [35m[ADB][39m Removing forwarded port socket connection: 36651 
+[debug] [35m[ADB][39m Running '/home/ardiansyah/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s ce03160390757c3d03 forward --remove tcp:36651'
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1640677512081 (14:45:12 GMT+0700 (Western Indonesia Time))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: Cannot verify the signature of '/tmp/Katalon/Appium/Temp1640677508651/20211128-9713-qfgjm4.vn7wf/appium-uiautomator2-server-v4.24.0.apk'. Original error: The JAVA_HOME location '/home/ardiansyah/App/Katalon_Studio_Linux_64-8.0.0/jre' must exist
+[debug] [35m[W3C][39m     at ADB.checkApkCert (/usr/lib/node_modules/appium/node_modules/appium-adb/lib/tools/apk-signing.js:306:11)
+[debug] [35m[W3C][39m     at UiAutomator2Server.installServerApk (/usr/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/uiautomator2.js:117:13)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.initUiAutomator2Server (/usr/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:494:7)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.startUiAutomator2Session (/usr/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:390:5)
+[debug] [35m[W3C][39m     at AndroidUiautomator2Driver.createSession (/usr/lib/node_modules/appium/node_modules/appium-uiautomator2-driver/lib/driver.js:229:7)
+[debug] [35m[W3C][39m     at AppiumDriver.createSession (/usr/lib/node_modules/appium/lib/appium.js:387:35)
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m1865 ms - 973[39m
+[35m[HTTP][39m [90m[39m
