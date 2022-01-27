@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/home/ardiansyah/Downloads/app-debug (1).apk'</initValue>
+      <initValue>'storage\\belajar\\app-debug.apk'</initValue>
       <name>apk_path</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
